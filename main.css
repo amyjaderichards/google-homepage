@@ -1,10 +1,27 @@
-h1 {
-    color: yellowgreen;
+* {
+    margin: 0;
+}
+
+html {
+    height: 100%;
 }
 
 body {
-    font-family: arial, sans-serif;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
     font-size: small;
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 150px 0 0 0;
 }
 
 #logo {
@@ -14,6 +31,53 @@ body {
 #google-logo {
     padding-top: 109px;
     width: "272";
+}
+
+#navbar {
+    overflow: hidden;
+    margin: 20px 20px 0 20px;
+    line-height: 20px;
+}
+
+#navbar a {
+    padding-top: 20px;
+    color: #000;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+}
+
+#button-container {
+    margin: 30px;
+}
+
+.button {
+    border: none;
+    border-radius: 6%;
+    height: 40px;
+    color: rgb(0, 0, 0, 0.5);
+    background-color: #f2f2f2;
+    padding: 0 15px;
+    margin: 0 5px;
+    font-size: 13px;
+}
+
+.button:hover {
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    color: #222;
+}
+
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    height: 44px;
+    width: 560px;
+    margin-top: 17px;
 }
 
 section {
@@ -36,10 +100,19 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    line-height: 40px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    padding-right: 30px;
 }
 
 footer a {
     margin-bottom: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 11px;
+    padding-left: 30px;
+    color: rgb(0, 0, 0, 0.7);
 }
 
 a {
@@ -47,12 +120,9 @@ a {
     padding: 20px 10px;    
 }
 
-#navbar a {
-    padding-top: 20px;
-}
-
 a:hover {
     text-decoration: underline;
+    color: #333;
 }
 
 .left {
