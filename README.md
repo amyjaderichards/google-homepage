@@ -6,4 +6,4 @@ First project from [The Odin Project](http://www.theodinproject.com/). "For this
 - CSS
 
 # ToDo -
-Add the magnifying glass and microphone icon and create Google Results page
+- Add the magnifying glass and microphone icon and create Google Results page
